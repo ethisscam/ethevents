@@ -25,6 +25,11 @@ tansaction hash   |                                                       auctio
 
 ### some auction related docs:
 - details: https://docs.makerdao.com/smart-contract-modules/collateral-module/flipper-detailed-documentation
+- https://docs.makerdao.com/auctions/the-auctions-of-the-maker-protocol
+- https://docs.makerdao.com/keepers/market-maker-keepers/market-maker-keeper-bot-setup-guide
+- https://forum.makerdao.com/t/auction-parameter-derivations/781
+
+- 部署清算机器人中文教程： https://bihu.com/article/1375031908
 
 ### analysis after 
 - https://medium.com/@whiterabbit_hq/black-thursday-for-makerdao-8-32-million-was-liquidated-for-0-dai-36b83cac56b6
