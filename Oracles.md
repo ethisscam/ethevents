@@ -1,0 +1,1 @@
+- [lindaxie curralist of oracles](https://github.com/linda-xie/defi-oracles)
