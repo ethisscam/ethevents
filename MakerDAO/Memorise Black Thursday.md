@@ -1,4 +1,4 @@
-# 2020/3/12 Balck Thursday
+# 2020/3/12 Black Thursday
 ### where I first read news that there were some vaults which were liquidated at near 0 DAI:
 - https://twitter.com/visavishesh/status/1238136481023131649
 
@@ -10,10 +10,10 @@
 - https://docs.google.com/forms/d/e/1FAIpQLSfekQcjT5up5Uh2W_C2W0U5zJ5miLd5ott_87CW8-dDH75TZg/viewform?fbzx=-4903276005808635065
 
 ### some vaults liquidated:
-Vault number |  ETH balance        |  source
------------  | --------------------| --------------------------------------
- #849        | 1713 ETH            |  https://www.reddit.com/r/MakerDAO/comments/fhs7kp/just_got_100_liquidated_with_my_1713_eth_cdp_fck/
- #4458       | 355.77 ETH          | https://www.reddit.com/r/MakerDAO/comments/fhn1qn/complete_vault_liquidation_no_eth_left/
+Vault number |  ETH balance  |  source
+-----------  | --------------| --------------------------------------
+ #849        | 1713 ETH      |  https://www.reddit.com/r/MakerDAO/comments/fhs7kp/just_got_100_liquidated_with_my_1713_eth_cdp_fck/
+ #4458       | 355.77 ETH    | https://www.reddit.com/r/MakerDAO/comments/fhn1qn/complete_vault_liquidation_no_eth_left/
 
 ### some transactions with 1 gwei bid
 tansaction hash   |                                                       auction id
