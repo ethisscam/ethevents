@@ -1,9 +1,36 @@
 # 清算市场
 
-目前DeFi的清算市场虽然利润丰厚，但是准入门槛很高。七哥暂时不具备开发相应清算程序能力，因此先整理清算类学习素材，以备后用。
-- 讨论清算市场的文章
+目前DeFi的清算市场虽然利润丰厚，但是准入门槛很高。信息虽然透明，但是获取难度大。此外，清算市场属于典型的“三年不开张，开张吃三年”行情，只有在极端行情下才能产生丰厚收益，而且参与这个市场不仅要求懂技术，对资金体量也有要求。
+## 概览
+### 清算数据统计网站
+- Compound/dYdX/CDP 清算统计网站(不包含Maker MCD）
+https://loanscan.io/supplied-liquidity#liquidation-volume 
+### 讨论清算市场的文章
+- 有效前沿公司2019年11月5号发表的一篇清算市场讨论文章
 
-https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec 这篇文章写于2019年第，是对19年清算市场的回顾。从文中可以看出，整个清算市场拍卖的抵押品价值5863万美元，而清算者获利212万美元。
+https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec 这篇文章发表于2019年11月5号，回顾了过去一年DeFi清算市场状态。从文中可以看出，过去一年整个清算市场拍卖的抵押品价值5863万美元，而清算者获利212万美元。文章进行了收益与风险分析，收益主要来自参加清算获得的折扣补偿，而风险包括：
+
+intensive capital requirements — In order to liquidate a $1m loan the liquidator needs $1m to do it.
+
+资本需求敏感型 - 要清算价值100万的贷款清算者需要准备100万资金。
+
+Highly periodic — Liquidations come in bursts with major market moves. On Sept 24 $8.2M was liquidated in a single day and roughly $320k in liquidation revenues were earned. (not including gas and other costs). 30 days can elapse with no significant liquidations taking place.
+
+高周期型 - 重大市场走势（价格暴涨或暴跌）才会引发大量清算。在9月24号，一天之内清算820万美元的资产，产生32万美元的清算回报。（不含油费和其他成本）。也有可能发生30天里没什么大的清算。
+
+Watching Loans — a monitoring system is required to watch loans that are at risk of becoming under collateralized
+
+监控贷款 - 要求开发一个监测系统来监控那些抵押不足的风险贷款。
+
+Watching MakerDAO Price Oracle — The ability to watch the MakerDAO price oracle (everyone using this for market prices) and predict when it will change price as well as how this flows through to the liquidation key moments is key.
+
+监控MakerDAO价格预言机 - 要求具备能够监控MakerDAO价格预言机的能力
+
+Gas Prices — can erode profits can this be navigated?
+
+Hedging — I’ve read that hedging is part of some players strategy to offset movements in PETH, ETH and other volatile assets
+
+Borrowing — The system may need the capability to programmatically barrow capital from the DeFi ecosystem in order to pay off loans.
 
 ## Compound
 
