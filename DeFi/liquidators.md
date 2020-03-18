@@ -6,9 +6,9 @@
 - Compound/dYdX/CDP 清算统计网站(不包含Maker MCD）
 https://loanscan.io/supplied-liquidity#liquidation-volume 
 ### 讨论清算市场的文章
-- 有效前沿公司2019年11月5号发表的一篇清算市场讨论文章
+- 有效前沿公司2019年11月5号发表的一篇[清算市场讨论文章](https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec )
 
-https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec 这篇文章发表于2019年11月5号，回顾了过去一年DeFi清算市场状态。从文中可以看出，过去一年整个清算市场拍卖的抵押品价值5863万美元，而清算者获利212万美元。文章进行了收益与风险分析，收益主要来自参加清算获得的折扣补偿，而风险包括：
+这篇文章发表于2019年11月5号，回顾了过去一年DeFi清算市场状态。从文中可以看出，过去一年整个清算市场拍卖的抵押品价值5863万美元，而清算者获利212万美元。文章进行了收益与风险分析，收益主要来自参加清算获得的折扣补偿，而风险包括：
 
 intensive capital requirements — In order to liquidate a $1m loan the liquidator needs $1m to do it.
 
@@ -24,13 +24,19 @@ Watching Loans — a monitoring system is required to watch loans that are at ri
 
 Watching MakerDAO Price Oracle — The ability to watch the MakerDAO price oracle (everyone using this for market prices) and predict when it will change price as well as how this flows through to the liquidation key moments is key.
 
-监控MakerDAO价格预言机 - 要求具备能够监控MakerDAO价格预言机的能力
+监控MakerDAO价格预言机 - 要求具备能够监控MakerDAO价格预言机的能力（因为大家都用它作为市场价），预测何时价格会变化及这将会如何传导至清算关键时刻是核心技能。
 
 Gas Prices — can erode profits can this be navigated?
 
+Gas价格 - Gas支出会不会侵蚀收益，这能确定吗？（七哥注：要看清算资产体量，体量越小越有可能入不敷出。但是体量大对资金要求也高）
+
 Hedging — I’ve read that hedging is part of some players strategy to offset movements in PETH, ETH and other volatile assets
 
+对冲 - 我了解到对冲作为一些清算者的策略来平衡PETH，ETH和其他波动资产的价格移动。
+
 Borrowing — The system may need the capability to programmatically barrow capital from the DeFi ecosystem in order to pay off loans.
+
+借款 - 系统也许需要具备从其DeFi生态中程序化借款的功能来支付贷款。（七哥注：这好像与清算无关，除非清算者借款来参与清算）
 
 ## Compound
 
