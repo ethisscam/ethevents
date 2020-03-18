@@ -1,3 +1,10 @@
+# 清算市场
+
+目前DeFi的清算市场虽然利润丰厚，但是准入门槛很高。七哥暂时不具备开发相应清算程序能力，因此先整理清算类学习素材，以备后用。
+- 讨论清算市场的文章
+
+https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec 这篇文章写于2019年第，是对19年清算市场的回顾。从文中可以看出，整个清算市场拍卖的抵押品价值5863万美元，而清算者获利212万美元。
+
 ## Compound
 
 ### 以下两段问答摘抄自 https://medium.com/compound-finance/faq-1a2636713b69
