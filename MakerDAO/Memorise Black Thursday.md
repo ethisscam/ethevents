@@ -34,3 +34,10 @@ tansaction hash   |                                                       auctio
 ### analysis after 
 - https://medium.com/@whiterabbit_hq/black-thursday-for-makerdao-8-32-million-was-liquidated-for-0-dai-36b83cac56b6
 
+### debt auction began (2020/3/19)
+- realtime data https://daiauctions.com/flop 
+- offical debt auction UI https://auctions.makerdao.com/flop
+- dune analysis https://explore.duneanalytics.com/public/dashboards/HDfmSXd9EwVvgoIAsh44DcprJ5zAkGIm1M4u34da
+- another tool to monitor flop auction http://flops.live
+
+
