@@ -6,7 +6,7 @@
 - Compound/dYdX/CDP 清算统计网站(不包含Maker MCD）
 https://loanscan.io/supplied-liquidity#liquidation-volume 
 ### 讨论清算市场的文章
-- 有效前沿公司2019年11月5号发表的一篇[清算市场讨论文章](https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec )
+- 有效前沿公司2019年11月5号发表的一篇[清算市场讨论文章](https://medium.com/efficient-frontier/decentralized-finance-liquidations-a-business-opportunity-assessment-c0eea7bdacec ) 作者写完这篇文章后下一篇文章就是宣告离开币圈（Sad),他认为这个圈子离大规模用户还很远。
 
 这篇文章发表于2019年11月5号，回顾了过去一年DeFi清算市场状态。从文中可以看出，过去一年整个清算市场拍卖的抵押品价值5863万美元，而清算者获利212万美元。文章进行了收益与风险分析，收益主要来自参加清算获得的折扣补偿，而风险包括：
 
