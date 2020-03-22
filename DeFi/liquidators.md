@@ -38,6 +38,18 @@ Borrowing — The system may need the capability to programmatically barrow capi
 
 借款 - 系统也许需要具备从其DeFi生态中程序化借款的功能来支付贷款。（七哥注：这好像与清算无关，除非清算者借款来参与清算）
 
+## MakerDAO
+### 3.12低价竞拍事件 https://github.com/ethisscam/ethevents/blob/master/MakerDAO/Memorise%20Black%20Thursday.md
+
+### 官方清算文章
+
+
+### 清算监控网站
+- 官方债务拍卖操作页面 https://auctions.makerdao.com/flop （期待抵押拍卖的操作页面）
+- defiexploer开发的抵押品拍卖监控网站 https://defiexplore.com/liquidations (defiexploer和defisaver都是
+- defisaver开发的清算操作页面（测试版还未正式发布） https://defisaver.com/makerdao/liquidation/xxxx
+- 社区成员做的拍卖数据是实时更新网站 https://daiauctions.com/flop
+- 另外一个网站 http://flops.live
 ## Compound
 
 ### 以下两段问答摘抄自 https://medium.com/compound-finance/faq-1a2636713b69
